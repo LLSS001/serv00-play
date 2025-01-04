@@ -1,6 +1,7 @@
 name: 批量保活进程
 
-on:workflow_dispatch：
+on:
+  workflow_dispatch：
   
   schedule:
     # 使用cron表达式定义任务运行的时间
